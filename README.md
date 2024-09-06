@@ -13,7 +13,6 @@ wezterm
 ├── utils
 │   └── math.lua
 └── wezterm.lua
-```
 # 安装
 ## Linux
 ```bash
@@ -29,9 +28,11 @@ rm .git
 ```
 ## 需要修改的配置
 - 如果在windows下，需要修改`wezterm.lua`中的`config.default_prog = {"C:\\Path\\To\\Your\\Shell.exe}`，指定shell的安装目录
-
+---
+下面都是在`appearance.lua`中
 - `config.window_background_image = "/Path/To/Your/Picture"` 指定背景图片
 - `config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }` 修改key后的值从而修改`<leader>`
+- `config.default_workspace = "ainaglar"` 修改为自己的名字
 # keymaps
 
 | `类别`   | `Key`                                        | `功能`                  |
