@@ -30,8 +30,8 @@ rm .git
 ## 需要修改的配置
 - 如果在windows下，需要修改`wezterm.lua`中的`config.default_prog = {"C:\\Path\\To\\Your\\Shell.exe}`，指定shell的安装目录
 
-`config.window_background_image = "/Path/To/Your/Picture"` 指定背景图片
-`config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }` 修改key后的值从而修改`<leader>`
+- `config.window_background_image = "/Path/To/Your/Picture"` 指定背景图片
+- `config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }` 修改key后的值从而修改`<leader>`
 # keymaps
 
 | `类别`   | `Key`                                        | `功能`                  |
