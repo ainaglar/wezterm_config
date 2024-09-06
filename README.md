@@ -1,6 +1,6 @@
 # 配置文件结构
-wezterm
 ```
+wezterm
 ├── config
 │   ├── appearance.lua
 │   └── keymaps.lua
