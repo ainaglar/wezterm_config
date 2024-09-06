@@ -1,5 +1,6 @@
 # 配置文件结构
 wezterm
+```
 ├── config
 │   ├── appearance.lua
 │   └── keymaps.lua
@@ -12,6 +13,7 @@ wezterm
 ├── utils
 │   └── math.lua
 └── wezterm.lua
+```
 # 安装
 ## Linux
 ```bash
