@@ -13,6 +13,7 @@ wezterm
 ├── utils
 │   └── math.lua
 └── wezterm.lua
+```
 # 安装
 ## Linux
 ```bash
